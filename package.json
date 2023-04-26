@@ -1,6 +1,6 @@
 {
   "name": "iquote-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quote generator",
   "main": "./bin/index.js",
   "type": "module",
