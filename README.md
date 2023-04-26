@@ -11,3 +11,16 @@ iquote-cli currently supports the following categories:
 - love
 - money
 - success
+
+## Usage
+
+To use iquote-cli, you'll need to obtain an API key from api-ninjas. 
+
+### Obtaining an API Key
+
+1. Go to the https://api-ninjas.com website and sign up for an account.
+2. Get a new API key from profile page.  
+
+### Using the API Key
+
+Once you have obtained your API key, you can use it with My NPM Package by adding in the config.env file.
