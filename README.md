@@ -14,6 +14,11 @@ iquote-cli currently supports the following categories:
 - money
 - success
 
+## Get Quote  
+npx iquote   
+
+![iquote](https://user-images.githubusercontent.com/121665946/234780185-0d559814-7f21-45bf-84dd-6ea6bd0d26e3.PNG)
+
 ## Usage
 
 To use iquote-cli, you'll need to obtain an API key from api-ninjas.
