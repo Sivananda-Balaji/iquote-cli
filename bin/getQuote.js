@@ -1,11 +1,8 @@
 import boxen from "boxen";
 import axios from "axios";
-import dotenv from "dotenv";
 
-const getQuote = async (category) => {
+const getQuote = async (category, apiKey) => {
   try {
-    dotenv.config({ path: "./config.env" });
-    const apiKey = process.env.API_KEY;
     const configs = {
       headers: { "x-api-key": apiKey },
       contentType: "application/json",
@@ -30,7 +27,12 @@ const getQuote = async (category) => {
 
     console.log(message);
   } catch (err) {
-    console.log(err);
+    console.log(
+      boxen(err.response.data.error, {
+        padding: 0.5,
+        borderColor: "red",
+      })
+    );
     process.exit(1);
   }
 };
